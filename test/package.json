@@ -4,7 +4,8 @@
   "description": "",
   "main": "anagram.test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf ./coverage && mkdirp ./coverage",
+    "test": "npm run clean && jest --coverage"
   },
   "keywords": [],
   "author": "",
