@@ -1,4 +1,5 @@
 # JEST Unit Tests
+William E. Cardoso
 
 ## GitHub Actions
 
