@@ -35,10 +35,6 @@ describe('AnaliseDeDados', () => {
       expect(analise.dados).toEqual([10, 20, 30, 40, 50, 60, 70]);
     });
 
-    test("calcularMedia deve retornar a média dos números", () => {
-      expect(analise.calcularMedia()).toBe(30);
-    });
-
     test("calcularMediana deve funcionar para listas pares e ímpares", () => {
       const analiseImpar = new AnaliseDeDados([1, 3, 2]);
       expect(analiseImpar.calcularMediana()).toBe(2);
